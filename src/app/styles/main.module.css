@@ -1,0 +1,123 @@
+.container {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  padding: 40px 200px 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.logo {
+  font-size: 28px;
+  font-family: "Nunito-Black";
+  color: var(--primary-color);
+}
+
+.profileContainer {
+  height: 40px;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 1px 4px rgb(219, 219, 219);
+  background-color: #fff;
+}
+
+.profileImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.profileName {
+  font-size: 14px;
+  font-family: "Nunito-Bold";
+  margin-left: 10px;
+}
+
+.appContainer {
+  height: calc(100vh - 110px);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.appLeft {
+  width: 400px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appRight {
+  padding: 20px 0;
+  width: calc(100% - 400px);
+}
+
+.form {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgb(219, 219, 219);
+}
+
+.formLabel {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.formTitle {
+  font-size: 16px;
+  font-family: "Nunito-Bold";
+}
+
+.formInput {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.formInput input {
+  width: calc(100% - 50px);
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 219, 219);
+  font-family: "Nunito-Regular";
+  padding: 0 10px;
+}
+
+.formBtn {
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: "Nunito-Medium";
+}
+
+.appLeft p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: "Nunito-Regular";
+  color: #808080;
+}
+
+.footer {
+  font-family: "Nunito-Medium";
+  color: #333;
+}
