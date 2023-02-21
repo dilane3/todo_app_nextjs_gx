@@ -31,7 +31,7 @@ export default function Home() {
             Vous avez la possibilité de voir le code source de cette
             application. Cliquez sur le bouton. <br />
             <span>
-              <Link href="https://github.com/dilane3/nextjs_app_gx">
+              <Link href="https://github.com/dilane3/todo_app_nextjs_gx">
                 <button className={styles.sourceBtn}>Voir Code Source</button>
               </Link>
             </span>
@@ -67,7 +67,7 @@ export default function Home() {
       <div className={styles.mobileFooter}>
         <Footer />
 
-        <Link href="https://github.com/dilane3/nextjs_app_gx">
+        <Link href="https://github.com/dilane3/todo_app_nextjs_gx">
           <button className={styles.sourceBtn}>Code Source</button>
         </Link>
       </div>
